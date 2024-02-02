@@ -117,3 +117,18 @@ Console.WriteLine("number1 >= number3: " + rst5); // true
 
 bool rst6 = number1 <= number2;
 Console.WriteLine("number1 <= number2: " + rst6); // false
+
+
+
+Console.WriteLine("\n" + new string('-', 50) + "\n");
+
+
+
+// strings
+
+string name = "Josué";
+int age = 19;
+string country = "Perú";
+
+var presentation = $"Hello, my name is {name}, I am {age} years old and I am from {country}";
+Console.WriteLine(presentation);
