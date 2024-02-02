@@ -80,3 +80,40 @@ Console.WriteLine("(value1 && value2) || value3: " + result4); // true
 
 bool result5 = value1 ^ value2;
 Console.WriteLine("value1 ^ value2: " + result5); // true
+
+
+
+Console.WriteLine("\n" + new string('-', 50) + "\n");
+
+
+
+// Relational Operators
+/*
+== equal
+!= different
+> greater than
+< less than
+>= greater than or equal
+<= less than or equal
+*/
+
+var (number1, number2, number3) = (10, 2, 3);
+Console.WriteLine("Values: " + number1 + " " + number2 + " " + number3);
+
+bool rst1 = number1 == number2;
+Console.WriteLine("number1 == number2: " + rst1); // false
+
+bool rst2 = number1 != number2;
+Console.WriteLine("number1 != number2: " + rst2); // true
+
+bool rst3 = number1 > number3;
+Console.WriteLine("number1 > number3: " + rst3); // true
+
+bool rst4 = number1 < number3;
+Console.WriteLine("number1 < number3: " + rst4); // false
+
+bool rst5 = number1 >= number3;
+Console.WriteLine("number1 >= number3: " + rst5); // true
+
+bool rst6 = number1 <= number2;
+Console.WriteLine("number1 <= number2: " + rst6); // false
